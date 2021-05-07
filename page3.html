@@ -23,13 +23,13 @@
             document.addEventListener('DOMContentLoaded', function() {
 
                 // sets what happens when answer with class correct is clicked
-                let correct = document.querySelector('.correct');
+                let correct = document.querySelector('#correct');
                 correct.addEventListener('click', function() {
                     correct.style.backgroundColor = '#70db70';
                     document.querySelector('#check').innerHTML = 'Correct'
                 });
             // sets what happens when answer with class incorrect is clicked
-            let incorrects = document.querySelectorAll('.incorrect');
+            let incorrects = document.querySelectorAll('#incorrect');
             for (let i = 0; i < incorrects.length; i++) {
                 incorrects[i].addEventListener('click', function() {
                     incorrects[i].style.backgroundColor = '#ff3333';
@@ -69,7 +69,8 @@
                     I am a junior in High School and am excited for summer! I have played the violin for over 11 years.
                     I also do field hockey and rowing at the high school. My favorite color is neon pink or blue. The one thing I hate most about the great outdoors is ladybugs.
                     I think this fear of ladybugs came from a traumatizing experience with them. My favorite food group is pasta. The best pasta shapes are gemelli, wagon wheels,
-                    bucatini, or fettucine (best that I can think of). My favorite animals are pangolins, sloths, llamas, alpacas, koalas, and kiwis.
+                    bucatini, or fettucine (best that I can think of). My favorite animals are pangolins, sloths, llamas, alpacas, koalas, and kiwis. I love to go
+                    hiking and play with my dogs. My favorite season is Fall or Summer.
                 </p>
         </div>
 
@@ -80,10 +81,10 @@
             <!-- MAKE BUTTONS PRETTIER TODAY!! BEFORE 3 -->
             <h4>How many insects does a pangolin eat each year?</h4>
             <div class="button">
-            <button class="incorrect">750k</button>
-            <button class="incorrect">300k</button>
-            <button class="correct">70 million</button>
-            <button class="incorrect">15 million</button>
+            <button class="btn btn-dark" id="incorrect">750k</button>
+            <button class="btn btn-dark" id="incorrect">300k</button>
+            <button class="btn btn-dark" id="correct">70 million</button>
+            <button class="btn btn-dark" id="incorrect">15 million</button>
             <!-- leave blank so event listener can write correct or incorrect -->
             <p id="check"></p>
             </div>
