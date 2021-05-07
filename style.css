@@ -1,0 +1,62 @@
+body {
+  background-color: FloralWhite;
+}
+
+header {
+    background-color: SteelBlue;
+
+}
+
+.card-text {
+    color: black;
+    text-align: left;
+}
+
+.nav-item {
+    color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+#metitle {
+    text-align: center;
+    font-size: x-large;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+.button {
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.center {
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+.bottom {
+    background-color: SteelBlue;
+}
